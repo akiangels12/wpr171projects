@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Architecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Website Application Architecture</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/PageLayout.html">Home Page</a></li>
+                <li><a href="#">Overview of the World Wide Web</a></li>
+                <li><a href="/WWWVsTheInternet.html">WWW vs the Internet</a></li>
+                <li><a href="/EvolutionOfTheinternet.html">Evolution of the Internet</a></li>
+                <li><a href="/InternetProtocols.html">Internet Protocols</a></li>
+                <li><a href="/Client-sideandserver-sideEngineering.html">Client-Side and Server-Side Engineering</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article class="poster" id="poster1">
+                <div class="title">
+                    Client-Side Components
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        User Interface (UI): The visual elements that users interact with. This includes layout, design, forms, buttons, and other user controls.
+                    </p>
+                    <p>
+                        Client-Side Scripting: JavaScript is commonly used to add interactivity to the UI, such as form validation, animations, and dynamic content updates.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="poster" id="poster2">
+                <div class="title">
+                    Server-Side Components
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Web Server: Receives and responds to client requests. It can serve static files (HTML, CSS, JavaScript) and route requests to appropriate components.
+                    </p>
+                    <p>
+                        Application Server: Handles the application's business logic, processing requests, interacting with databases, and generating dynamic content.
+                    </p>
+                    <p>
+                        Database: Stores and manages data that the application uses. Common databases include MySQL, PostgreSQL, MongoDB, and more.
+                    </p>
+
+            </article>
+
+            <article class="poster" id="poster3">
+                <div class="title">
+                    Communication
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        HTTP/HTTPS: The protocol used for communication between the client (browser) and the server. Requests and responses are exchanged over this protocol.
+                    </p>
+                    <p>
+                        APIs (Application Programming Interfaces): Enable communication between different software components. APIs define how requests and responses should be structured.
+                    </p>
+                </div>
+            </article>
+            
+            <article class="poster" id="poster4">
+                <div class="title">
+                    Architectural Styles
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Client-Server Architecture: Separates the client (user interface) from the server (data processing) to enhance scalability and maintainability.
+                    </p>
+                    <p>
+                        Single-page Application (SPA): A type of web app that loads a single HTML page and dynamically updates content as the user interacts with the app.
+                    </p>
+                    <p>
+                        Microservices Architecture: Divides the application into small, independent services that communicate through APIs. This allows for scalability and flexibility.
+                    </p>
+                </div>    
+            </article>
+
+            <article class="poster" id="poster5">
+                <div class="title">
+                    Front-End Technologies
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        HTML (Hypertext Markup Language): Defines the structure of the web page.
+                    </p>
+                    <p>
+                        CSS (Cascading Style Sheets): Controls the presentation and styling of the web page.
+                    </p>
+                    <p>
+                        JavaScript: Adds interactivity and dynamic behavior to the web page.
+                    </p>
+
+            </article>
+
+            <article class="poster" id="poster6">
+                <div class="title">
+                    Back-End Technologies
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Programming Languages: Common languages include Python, Java, Ruby, Node.js (JavaScript), PHP, etc.
+                    </p>
+                    <p>
+                        Web Frameworks: Provide a structured way to build and organize the application's back-end code. Examples include Django (Python), Ruby on Rails (Ruby), Express.js (Node.js).
+                    </p>
+                    <p>
+                        Database Management Systems (DBMS): Software to manage data storage and retrieval. Examples include MySQL, PostgreSQL, MongoDB.
+                    </p>
+                </div>    
+            </article>
+
+            <article class="poster" id="poster7">
+                <div class="title">
+                    Security Considerations
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Authentication and Authorization: Ensuring users are who they claim to be and controlling their access to resources.
+                    </p>
+                    <p>
+                        Data Encryption: Protecting data transmitted between the client and server using protocols like HTTPS.
+                    </p>
+                    <p>
+                        Input Validation: Preventing malicious inputs that could compromise the application's security.
+                    </p>
+                </div> 
+
+            </article>
+
+            <article class="poster" id="poster8">
+                <div class="title">
+                    Scalability and Performance
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Load Balancing: Distributing incoming requests across multiple servers to prevent overloading..
+                    </p>
+                    <p>
+                        Caching: Storing frequently accessed data in memory to reduce database load and improve performance.
+                    </p>
+                    <p>
+                        Content Delivery Networks (CDNs): Distributing static assets across multiple servers globally to improve load times
+                    </p>
+                </div> 
+            </article>
+
+            <article class="poster" id="poster9">
+                <div class="title">
+                    Deployment
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Hosting: Web applications can be hosted on various platforms, such as cloud services (AWS, Azure, Google Cloud), shared hosting, or dedicated servers.
+                    </p>
+                    <p>
+                        Containerization: Using technologies like Docker to package and isolate application components for consistent deployment across different environments.
+                    </p>
+                </div> 
+            </article>
+
+            <article class="poster" id="poster10">
+                <div class="title">
+                    Monitoring and Maintenance
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="info">
+                    <p>
+                        Logging: Recording events and errors for troubleshooting and analysis.
+                    </p>
+                    <p>
+                        Performance Monitoring: Tracking application performance and identifying bottlenecks.
+                        Regular Updates: Keeping software libraries, frameworks, and security measures up-to-date.
+                    </p>
+                </div> 
+            </article>
+        </main>
+    </div>
+</body>
+</html>

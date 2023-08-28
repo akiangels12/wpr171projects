@@ -1,0 +1,65 @@
+header {
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: solid black;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    padding: 10px;
+    float: left;
+    border: solid black;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: solid black;
+    clear: both;
+  }
+  .img1{
+    float: right;
+    width: 805px;
+    image-rendering: optimizeQuality;
+  }
+  .img2{
+    border-radius: 50%;
+    width: 300px;
+  }
+  .img3{
+float: right;
+  }
+  .navbar{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  margin-top: 10px;
+  border:solid black
+  }
+  .nav-list li a{
+    font-size: larger;
+    color: black;
+  }
+
+  li{
+    list-style: none;
+    color: aliceblue;
+  }
+  
+
+  
+  
+  
+  
+  

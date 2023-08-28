@@ -1,0 +1,177 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 10% 20%, rgb(87, 108, 117) 0%, rgb(37, 50, 55) 100.2%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: white;
+    background-color: #3aafa9;
+
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(yessbaby.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+H1{
+    padding-bottom: 10px;
+    
+}
+
+.one{
+    padding-top: 10px;
+}
+
+.secone{
+    border: 2px solid white;
+    background-color: #e7eaf6;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-bottom: none;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #385170;
+    background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
+    border: 2px solid white;
+ 
+}
+
+.H2{
+    padding-top: 150px;
+    color: white;
+    margin: auto;
+    background-image: url(proj.jpeg);
+    background-size: cover;
+    width: 420px;
+    height: 350px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.two{
+    color: white;
+    padding-top: 10px;
+}
+
+.pic2{
+    margin: auto;
+    width: 470px;
+    background-size: cover;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+
+footer{
+    background-color: #999;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#container {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 50px;
+    width: 100%;
+    bottom: 45%;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+    border: 2px solid white;
+    border-top: none;
+}
+
+#flip {
+    height: 50px;
+    overflow: hidden;
+}
+
+#flip>div>div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+#flip div:first-child {
+    animation: show 5s linear infinite;
+}
+
+#flip div div {
+    background: #42c58a;
+}
+
+#flip div:first-child div {
+    background: #4ec7f3;
+}
+
+#flip div:last-child div {
+    background: #DC143C;
+}
+
+@keyframes show {
+    0% {margin-top: -270px;}
+    5% {margin-top: -180px;}
+    33% {margin-top: -180px;}
+    38% {margin-top: -90px;}
+    66% {margin-top: -90px;}
+    71% {margin-top: 0px;}
+    99.99% {margin-top: 0px;}
+    100% {margin-top: -270px;}
+}
+
+.top {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+  }

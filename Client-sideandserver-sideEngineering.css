@@ -1,0 +1,57 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  main {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+  }
+  
+  
+  section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #0c0b0b;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  section:hover{
+    padding: 60px;
+    font-size: x-large;
+    
+  }
+  
+  
+  h2 {
+    color: #333;
+  }
+  
+  
+  p {
+    color: #555;
+  }
+  
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+    font-size: large;
+  }
+  
+  
+  h1{
+  text-align: center;
+  }
+  
+  

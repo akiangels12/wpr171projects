@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+
+.poster {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poster .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.poster .info p {
+    margin-bottom: 10px;
+}
+
+
+.poster .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .poster {
+        padding: 15px;
+    }
+}
+
